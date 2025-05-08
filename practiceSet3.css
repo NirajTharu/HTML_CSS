@@ -1,0 +1,9 @@
+/* Create a button and set its background to: 
+- green using css style sheet 
+- blue using <style>tag 
+- pink using inline style */
+
+/* This file contain only css of setThree.html */
+button {
+    background-color: green;
+}

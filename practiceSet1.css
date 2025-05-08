@@ -4,3 +4,7 @@ Add some text content inside the div.
 Set its background color to blue. */
 
 /* This only content the css part wile the html part is in "setOne.html"" file */
+
+#One {
+    background-color: blue;
+}

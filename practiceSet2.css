@@ -1,0 +1,14 @@
+/* Create 3 headings with h1, h2 and h3.
+Give them all a class "heading" and set the color of heading red. */
+
+
+/* This only contain the css file while the css content is in "setTwo.html" */
+.heading {
+    color: red;
+}
+
+/* h1,
+h2,
+h3 {
+    color: blue;
+} */
