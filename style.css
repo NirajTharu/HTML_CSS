@@ -1,0 +1,23 @@
+/* This is the index.css first file. */
+h1 {
+  /* This one is for setting the foreground color. */
+  color: aqua;
+  /* This one for setting the background color. */
+  background-color: rgb(3, 78, 72);
+}
+
+p {
+  color: rgb(4, 68, 64);
+  background-color: rgb(12, 129, 123);
+}
+
+button {
+  /* using the hex(hexadecimal) color system */
+  color: #ff0000;
+  /* background color using the RGB color system. */
+  background-color: rgb(223, 232, 229);
+}
+
+body {
+  background-color: rgb(3, 64, 1);
+}

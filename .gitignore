@@ -1,0 +1,41 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS folder attributes
+Icon?
+._*
+
+# macOS metadata files
+.Spotlight-V100
+.Trashes
+
+# VS Code settings (optional to ignore)
+.vscode/
+
+# Node.js (if using tools like npm, Gulp, etc.)
+node_modules/
+dist/
+build/
+
+# Log files
+*.log
+
+# Temporary or backup files
+*.tmp
+*.swp
+*.bak
+*.~*
+
+# Sass/SCSS cache (if used)
+.sass-cache/
+
+# Cache directories
+.cache/
+
+# Environment files (if used)
+.env
+
+# JetBrains IDEs (WebStorm, PhpStorm, etc.)
+.idea/
