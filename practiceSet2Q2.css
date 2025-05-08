@@ -1,0 +1,10 @@
+/* This is practice set 2  with only css */
+/* Q2. Set the font of the all content in the document to "Times New Roman".  */
+
+p {
+    font-family: 'Times New Roman';
+}
+
+* {
+    font-family: 'Times New Roman';
+}

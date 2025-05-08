@@ -1,0 +1,9 @@
+/* This is practice set 2  with only css */
+/* < Q1. Create a heading centered on the page with all of its text capitalized by default.*/
+h1 {
+    text-align: center;
+}
+
+#one {
+    text-transform: capitalize;
+}
