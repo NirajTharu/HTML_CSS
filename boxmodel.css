@@ -1,0 +1,45 @@
+/* Trying the box model*/
+
+#One {
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: pink;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: blue; */
+    /* Border short hand first in put is width , style and color */
+    border: 3px solid brown;
+
+}
+
+#Two {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#Three {
+    height: 100px;
+    width: 100px;
+    border: 2px solid brown;
+    text-align: center;
+    /* padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    padding-right: 3px; */
+    /* Short hand for padding first top, left, bottom and right */
+    padding: 2px 3px 2px 3px;
+}
+
+h1 {
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: pink;
+    text-align: center;
+}
