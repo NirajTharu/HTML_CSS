@@ -4,6 +4,7 @@ set id and text "outer" for the first one
 and "inner" for the second one Set the outer div text size to 25 px and
 inner div text size to 10px. */
 
+/* for text size "font-size is used" */
 #inner {
     font-size: 10px;
 }
