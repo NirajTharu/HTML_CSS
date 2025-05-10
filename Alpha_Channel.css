@@ -1,0 +1,26 @@
+/* Learning the alpha channel in css. 
+Alpha channel is the extended in rgba where a is the alpha channel which tells us the opacity of the color. */
+
+#One {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: rgba(225, 0, 0, 0.3);
+}
+
+#Two {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: rgba(0, 0, 225, 0);
+}
+
+#Three {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: rgba(22, 0, 225, 1);
+}
