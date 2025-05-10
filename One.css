@@ -1,0 +1,23 @@
+/* For Display test this is done. */
+
+div {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 20px;
+    display: inline;
+}
+
+#One {
+    background-color: aqua;
+}
+
+#Two {
+    background-color: pink;
+    /* Due to use fo the visibility:hidden the 2nd div is not visible. */
+    visibility: hidden;
+}
+
+#Three {
+    background-color: brown;
+}
