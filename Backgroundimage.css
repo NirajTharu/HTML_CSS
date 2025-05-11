@@ -1,0 +1,35 @@
+/* About the tags used in the images  */
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#Box1 {
+    color: aqua;
+    background-image: url(Moon.jpg);
+    background-size: cover;
+
+}
+
+#Box2 {
+    color: aquamarine;
+    background-image: url(Moon_With_cloud.jpg);
+    background-size: contain;
+}
+
+#Box3 {
+    color: darkcyan;
+    background-image: url(Red_Moon.jpg);
+    background-size: auto;
+}
+
+#Box4 {
+    color: chocolate;
+    background-image: url(Solar_system.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+}
