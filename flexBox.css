@@ -1,0 +1,56 @@
+/* Learning flex box */
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+#container {
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    /* Flex Direction are listed below: flex-direction: 
+    row(main axis row and flex from left to right),
+    row-reverse(Main axis row and flex from right to left)/
+    column(main axis column and flex from top to bottom), 
+    column-reverse(main axis column and flex from bottom to top)*/
+    flex-direction: row;
+}
+
+
+/* Flex properties for the flex properties for  flex container 
+This includes : justify-content: start/ end/ center/ space-evenly/ space-around/ space-between
+*/
+#container {
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#Box1 {
+    background-color: aqua;
+}
+
+#Box2 {
+    background-color: aquamarine;
+}
+
+#Box3 {
+    background-color: beige;
+}
+
+#Box4 {
+    background-color: blueviolet;
+}
+
+#Box5 {
+    background-color: chartreuse;
+}
