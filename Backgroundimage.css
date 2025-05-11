@@ -14,22 +14,25 @@ div {
 
 }
 
+/* contain will fit the image with no empty space with the repetition of the image */
 #Box2 {
     color: aquamarine;
     background-image: url(Moon_With_cloud.jpg);
     background-size: contain;
 }
 
+/* Auto will automatically use the image  */
 #Box3 {
     color: darkcyan;
     background-image: url(Red_Moon.jpg);
     background-size: auto;
 }
 
+/* Cover will cover all the window with no empty space */
 #Box4 {
     color: chocolate;
     background-image: url(Solar_system.jpg);
-    background-size: contain;
+    background-size: cover;
     height: 200px;
     width: 200px;
 }
