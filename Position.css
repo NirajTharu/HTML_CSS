@@ -1,0 +1,46 @@
+/* This one is for practicing the Position properties */
+/* They are static, relative, absolute, fixed, sticky */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+/* Here the fixed is used */
+#Header {
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 40px;
+}
+
+/* This is by default, This does not make any change in the element.  */
+#box1 {
+    position: static;
+}
+
+/* Element is relative to itself */
+/* Here the z-index is also used for the priority display of the element.  */
+#box2 {
+    position: relative;
+    text-align: center;
+    top: 39px;
+    left: 20px;
+    z-index: 1;
+}
+
+/* absolute: position is changed according to its closest positioned(not static) ancestors */
+#box3 {
+    position: absolute;
+    left: 10px;
+    top: 300px;
+}
+
+/* Fixed: Position is relative to the browser */
+#box4 {
+    position: sticky;
+    top: 0;
+}
