@@ -1,0 +1,19 @@
+/* Practice Set 5 with some questions Create the following layout using the given html.
+ .Give the div a height,width and some background image.
+ .Use the appropriate position property for the div element to place it at the right end of the page 
+ (The div should not move even on the scroll) */
+
+/* HTML CONTENT
+
+*/
+
+div {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    background-image: url(Red_Moon.jpg);
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
