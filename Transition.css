@@ -1,0 +1,28 @@
+/* Learning Transition */
+/*  */
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+
+    /* Using shorthand for transition
+    /* transition: all 2s ease-in-out 1s; */
+}
+
+div:hover {
+    background-color: antiquewhite;
+    color: Green;
+    font-size: 10px;
+}
+
+div:active {
+    background-color: rgb(212, 125, 11);
+    color: blue;
+    font-size: 14px;
+}
