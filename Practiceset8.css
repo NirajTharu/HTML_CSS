@@ -1,0 +1,28 @@
+/* Create a simple loader using css
+Step1: Create a div with circular shape and a thick border from one end (top/bottom/left/right)
+Step2: To make it spin create an animation which transforms it from 0deg to 360deg
+Step3: Add the animation property to the loader with infinite duration */
+
+
+
+.loader {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 50%;
+    border: 5px solid rgb(225, 2, 177);
+    border-bottom: 5px solid black;
+
+    animation: loading_Pink 1s ease-in 0s infinite normal;
+}
+
+@keyframes loading_Pink {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
