@@ -1,0 +1,37 @@
+/* Practice Set7 */
+/*  Add a media query to implement the following:
+- The color of  a div changes to green for viewport width less then 300px
+- The color of  a div changes to pink for width between 300px to 400px
+- The color of  a div changes to red for width between 400px to 600px
+- The color of a div changes to blue for width above 600px.*/
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+}
+
+
+@media(max-width:300px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media(min-width:300px) and (max-width:300px) {
+    div {
+        background-color: pink;
+    }
+}
+
+@media(min-width:400px) and (max-width:600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media(min-width:600px) {
+    div {
+        background-color: blue;
+    }
+}
